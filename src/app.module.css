@@ -1,0 +1,196 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContainer {
+  width: 100vw;
+}
+
+.bannerOverlay {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(#000000, #ffffff00);
+  z-index: 2;
+  font-family: 'Destroyers';
+  letter-spacing: 1rem;
+
+}
+
+.bannerImage {
+  width: 100%;
+  height: 60rem;
+  object-fit: cover;
+}
+
+section {
+  text-align: center;
+  padding: 0 8rem;
+}
+
+section > h2 {
+  margin: 4rem 0;
+  letter-spacing: .25rem;
+  font-family: "Destroyers";
+  font-size: 6rem;
+}
+
+.horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  text-align: start;
+}
+
+.horizontalContainer > div {
+  width: 45%;
+}
+
+.bioImage {
+  width: 100%;
+  border-radius: .25rem;
+}
+
+.bioTextContainer {
+  position: relative;
+  z-index: 2;
+  border-radius: .25rem;
+  height: fit-content;
+  margin: auto 0;
+}
+
+.bioUnderlay {
+  position: absolute;
+  width: 25%;
+  margin-top: -2rem;
+  right: 16%;
+  filter: opacity(0.05);
+}
+
+.lineupSection > div {
+  margin: 4rem 0;
+}
+
+.horizontalMemberContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.memberCardContainer {
+  border-radius: .25rem;
+  overflow: hidden;
+  width: fit-content !important;
+  cursor: pointer;
+}
+
+.memberTitle {
+  position: relative;
+  margin-bottom: -12.3rem;
+  z-index: 2;
+  font-family: 'Destroyers';
+  padding: 2rem;
+  line-height: 0.5rem;
+  background: linear-gradient(#000000bd, #ffffff00);
+}
+
+.memberTitle > h3 {
+  font-size: 2.5rem;
+}
+
+.memberTitle > h4 {
+  font-size: 1.75rem;
+}
+
+.memberImage {
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+  width: 25rem;
+  height: 40rem;
+  object-fit: cover;
+  transition: all .3s
+}
+
+.memberImage:hover {
+  filter: brightness(1.25);
+  transform: scale(1.1);
+}
+
+.discographyList {
+  text-align: start; 
+}
+
+.discographyList > li {
+  display: flex;
+  height: fit-content;
+  border-bottom: 1px solid #ffffff2d;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.discographyList > li:last-child {
+  border: none;
+}
+
+.discographyList > li:hover {
+  background-color: #ffffff09;
+}
+
+.discographyList > li::marker {
+  content: '';
+}
+
+.discographyList > li > img {
+  width: 10rem;
+}
+
+.discographyList > li > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.discographyList > li > div > p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 8rem;
+  background-color: #1a1a1a;
+}
+
+.footerSection > img {
+  width: 15rem;
+  margin: 0 auto 2rem auto;
+  cursor: pointer;
+}
+
+.footerInfoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footerInfoContainer h3 {
+  margin-bottom: 0 !important;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ffffff2d;
+}
+
+.footerInfoContainer > p {
+  cursor: pointer;
+}
+
+.footerInfoContainer > p:hover {
+  text-decoration: underline;
+}
+
